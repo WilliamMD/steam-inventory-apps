@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Game Inventory System</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        input[type='number']{
+            width: 100px;
+        }
+        .center {
+            margin: auto;
+        }
+    </style>
+
+</head>
+<body style="background-color: rgb(20, 19, 19)">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a href="/">
+                <img width="50px" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="">
+            </a>
+            <h3 class="text-light" style="margin-top:3px;">&nbsp;<%= users.username %></h3>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <br>
+    <div class="position-relative" style="margin-left:20px">
+        <div class="position-absolute top-0 start-0">
+            <div class="card text-white bg-dark" style="width: 18rem;">
+                <img src="<%= users.avatar %>" class="card-img-top">
+                <div class="card-body center">
+                    <h5 class="card-title" style="text-align:center;"><%= users.username %></h5>
+                    <div>
+                        <p class="card-text">Total Wallet&nbsp;&nbsp;: Rp. <%= users.wallet %></p>
+                    </div>
+                    <div >
+                        <form action="/users/<%= users.id %>/addFunds" method="post" style="margin-top:10px">
+                            <span> Rp. <label for="wallet"></label></span>
+                            <input type="number" name="wallet">
+                            <input type="submit" class="btn btn-secondary btn-sm" value="Add funds" style="margin-top:-5px;">
+                        </form>
+                    </div>
+                    <div style="margin-top:15px; display: flex; justify-content: space-between;">
+                        <a href="/users/edit/<%= users.id %>" class="btn btn-info btn-sm">Edit Profile</a>
+                        <form action="/users/delete/<%= users.id %>" method="post" >
+                            <input class="btn btn-sm btn-danger" type="submit" value="Delete User">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="position-absolute top-0 start-50 translate-middle-x" style="margin-left:-50px">
+            <a href="/games/<%= users.id %>/store" style="margin-top:10px" class="btn btn-info">Store</a>
+            <a href="/carts/<%= users.id %>" style="margin-top:10px" class="btn btn-info">View Cart</a>
+            <h5 class="text-light" style="margin-top:3px;">Owned Games (Total: <%= inventories.length %>)</h5>
+            <div style="margin-top:10px;">
+                <table class="table table-bordered border-light table-dark table-striped">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Genre</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                            <% inventories.forEach(inventory => { %>
+                            <tr>
+                                <th>
+                                    <a href="/games/<%= users.id %>/detail/<%= inventory.Game.id %>" style="color:white; text-decoration: none;"><%= inventory.Game.name %>
+                                    </a>
+                                </th>
+                                <th><%= inventory.Game.genre %></th>
+                                <th>
+                                    <a href="/games/<%= users.id %>/detail/<%= inventory.GameId %>" class="btn btn-sm btn-info" role="button" data-bs-toggle="button">
+                                        View on store
+                                    </a>
+                                </th>
+                            </tr>
+                            <% }) %>
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

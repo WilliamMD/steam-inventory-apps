@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Game Inventory System</title>
+
+    <style>
+        input[type='number']{
+            width: 145px;
+        } 
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body style="background-color: rgb(20, 19, 19)">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a href="/">
+                <img width="50px" height="50px" src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" alt="">
+            </a>
+            <h3 class="text-light" style="margin-top:3px;">&nbsp;Add Game</h3>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <a href="/games/<%= users.id %>/store" class="btn btn-info" role="button" data-bs-toggle="button">Go back to Store Page</a>
+          </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    
+    <div class="container-sm">
+        <form action="/games/<%= users.id %>/add" method="post" class="row g-3">
+            <div class="row mb-3">
+                <label for="username" class="text-light col-sm-2 col-form-label">Title: </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="name" placeholder="Title">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="username" class="text-light col-sm-2 col-form-label">Description: </label>
+                <div class="col-sm-10">
+                    <textarea type="text" class="form-control" name="description" placeholder="Description"></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="genre" class="text-light col-sm-2 col-form-label">Genre: </label>
+                <div class="col-sm-10">
+                    <select name="genre">
+                        <option disabled selected value> -- Select Genre -- </option>
+                        <option value="FPS">FPS</option>
+                        <option value="RPG">RPG</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Horror">Horror</option>
+                        <option value="Battle Royale">Battle Royale</option>
+                        <option value="Fighting Game">Fighting Game</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="price" class="text-light col-sm-2 col-form-label">Price (Rp.):</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control" name="price" placeholder="10000">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="avatar" class="text-light col-sm-2 col-form-label">Image link: </label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="image" placeholder="https://via.placeholder.com/150">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Game</button>
+      </form>
+    </div>
+</body>
+</html>

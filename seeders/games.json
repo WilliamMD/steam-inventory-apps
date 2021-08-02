@@ -1,0 +1,98 @@
+[
+    {
+        "name" : "Fallout 76",
+        "description" : "Steel Reign brings the conclusion of the Brotherhood of Steel storyline. You arrive back at Fort Atlas to find the tensions between Paladin Rahmani and Knight Shin have reached a boiling point.",
+        "genre" : "RPG",
+        "price" : 300000,
+        "image" : "https:\/\/www.pngaaa.com\/api-download\/207346",
+        "createdAt" : "2021-07-29T04:23:56.783Z"
+    },
+    {
+        "name" : "Battlefield 1 ™",
+        "description" : "Battlefield 1 ™ takes you back to The Great War, WW1, where new technology and worldwide conflict changed the face of warfare forever. Take part in every battle, control every massive vehicle, and execute every maneuver that turns an entire fight around.",
+        "genre" : "FPS",
+        "price" : 300000,
+        "image" : "https:\/\/yopcgames.com\/wp-content\/uploads\/2019\/01\/battlefield-1-pc.png",
+        "createdAt" : "2021-07-30T06:38:58.037Z"
+    },
+    {
+        "name" : "PlayerUnknown's Battlegrounds",
+        "description" : "PUBG: BATTLEGROUNDS is a battle royale shooter that pits 100 players against each other in a struggle for survival. Gather supplies and outwit your opponents to become the last person standing.",
+        "genre" : "Battle Royale",
+        "price" : 100000,
+        "image" : "https:\/\/pngimg.com\/uploads\/pubg\/pubg_PNG56.png",
+        "createdAt" : "2021-07-30T07:22:58.983Z"
+    },
+    {
+        "name" : "Outlast",
+        "description" : "Outlast is a survival horror game that revolves around a freelance investigative journalist, Miles Upshur, who decides to investigate a remote psychiatric hospital named Mount Massive Asylum, located deep in the mountains of Lake County, Colorado.",
+        "genre" : "Horror",
+        "price" : 100000,
+        "image" : "https:\/\/www.pngaaa.com\/api-download\/766793",
+        "createdAt" : "2021-07-30T06:45:16.197Z"
+    },
+    {
+        "name" : "The Witcher 3: Wild Hunt",
+        "description" : "The Witcher 3 takes place in a fictional fantasy world based on Slavonic mythology. Players control Geralt of Rivia, a monster slayer for hire known as a Witcher, and search for his adopted daughter, who is on the run from the otherworldly Wild Hunt.",
+        "genre" : "Adventure",
+        "price" : 150000,
+        "image" : "https:\/\/www.pngaaa.com\/api-download\/2663311",
+        "createdAt" : "2021-07-30T07:26:35.838Z"
+    },
+    {
+        "name" : "Fortnite",
+        "description" : "Fortnite is a survival game where 100 players fight against each other in player versus player combat to be the last one standing. It is a fast-paced, action-packed game, not unlike The Hunger Games, where strategic thinking is a must in order to survive.",
+        "genre" : "Battle Royale",
+        "price" : 50000,
+        "image" : "https:\/\/freepngimg.com\/download\/xbox\/90336-playstation-pc-royale-game-fortnite-battle.png",
+        "createdAt" : "2021-07-30T07:26:57.727Z"
+    },
+    {
+        "name" : "Call of Duty: Modern Warfare 2019",
+        "description" : "Modern Warfare is a first-person shooter game. The campaign follows a CIA officer and British SAS forces as they team up with rebels from the fictional country of Urzikstan, combating together against Russian forces who have invaded the country.",
+        "genre" : "FPS",
+        "price" : 500000,
+        "image" : "https:\/\/macrokingz.com\/wp-content\/uploads\/2019\/11\/dd8n7h4-1ddcabf8-9d75-4974-9847-2875061b26de.png",
+        "createdAt" : "2021-07-29T04:23:21.903Z"
+    },
+    {
+        "name" : "Minecraft",
+        "description" : "Minecraft is a sandbox video game developed by the Swedish video game developer Mojang Studios.",
+        "genre" : "Adventure",
+        "price" : 120000,
+        "image" : "https:\/\/icon-library.com\/images\/minecraft-png-icon\/minecraft-png-icon-28.jpg",
+        "createdAt" : "2021-07-30T15:24:18.846Z"
+    },
+    {
+        "name" : "The Elder Scroll V: Skyrim",
+        "description" : "TES V: Skyrim is an action role-playing game, playable from either a first or third-person perspective. The player may freely roam over the land of Skyrim—an open world environment consisting of wilderness expanses, caves, cities, and villages.",
+        "genre" : "RPG",
+        "price" : 250000,
+        "image" : "https:\/\/www.freeiconspng.com\/download\/41584",
+        "createdAt" : "2021-07-29T04:23:42.455Z"
+    },
+    {
+        "name" : "Cyberpunk 2077",
+        "description" : "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification.",
+        "genre" : "RPG",
+        "price" : 300000,
+        "image" : "https:\/\/www.designbust.com\/download\/1431\/png\/cyberpunk_2077_folder_icon512.png",
+        "createdAt" : "2021-08-01T08:52:31.681Z"
+    },
+    {
+        "name" : "Mortal Kombat 11",
+        "description" : "Mortal Kombat 11 is a 2.5D fighting game. Alongside the returning Fatalities, Brutalities, Stage Fatalities, Friendships and Quitalities, new gameplay features are introduced, such as Fatal Blows and Krushing Blows.",
+        "genre" : "Fighting Game",
+        "price" : 200000,
+        "image" : "http:\/\/mk11.themobilegame.net\/getios10.com\/img\/apple-logo-white.png",
+        "createdAt" : "2021-08-01T11:14:38.577Z"
+    },
+    {
+        "name" : "Metro Exodus",
+        "description" : "Flee the shattered ruins of the Moscow Metro and embark on an epic, continent-spanning journey across the post-apocalyptic Russian wilderness.",
+        "genre" : "FPS",
+        "price" : 300000,
+        "image" : "https:\/\/tinyurl.com\/56h2vca3",
+        "createdAt" : "2021-08-01T11:20:39.917Z"
+    }
+]

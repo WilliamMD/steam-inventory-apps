@@ -1,0 +1,48 @@
+[
+    {
+        "username" : "LittleFreaky",
+        "password" : "test123@8",
+        "avatar" : "https:\/\/avatarfiles.alphacoders.com\/190\/190579.jpg",
+        "wallet" : 280000,
+        "deletedFlag" : 0,
+        "createdAt" : "2021-07-30T17:13:58.130Z",
+        "updatedAt" : "2021-08-02T09:17:22.994Z"
+    },
+    {   
+        "username" : "john_doe619",
+        "password" : "12345678",
+        "avatar" : "https:\/\/avatarfiles.alphacoders.com\/773\/77397.jpg",
+        "wallet" : 250000,
+        "deletedFlag" : 0,
+        "createdAt" : "2021-07-30T17:15:54.278Z",
+        "updatedAt" : "2021-08-01T08:23:50.525Z"
+    },
+    {
+        "username" : "JediSweeper13",
+        "password" : "12345678",
+        "avatar" : "https:\/\/i1.sndcdn.com\/avatars-000315074076-dygl4l-t500x500.jpg",
+        "wallet" : 180000,
+        "deletedFlag" : 0,
+        "createdAt" : "2021-07-30T18:52:43.161Z",
+        "updatedAt" : "2021-08-02T07:25:16.207Z"
+    },
+    {
+        "username" : "xero9ravity",
+        "password" : "12423424234",
+        "avatar" : "https:\/\/i1.sndcdn.com\/avatars-000623720151-xv81fg-t500x500.jpg",
+        "wallet" : 150000,
+        "deletedFlag" : 0,
+        "createdAt" : "2021-08-01T11:08:29.654Z",
+        "updatedAt" : "2021-08-02T09:17:01.904Z"
+    },
+    {
+        "username" : "Mr.Sandman",
+        "password" : "546463654635",
+        "avatar" : "https:\/\/avatarfiles.alphacoders.com\/218\/thumb-1920-218404.jpg",
+        "wallet" : 330000,
+        "deletedFlag" : 0,
+        "createdAt" : "2021-08-01T11:10:04.658Z",
+        "updatedAt" : "2021-08-02T07:25:11.423Z"
+    }
+]
+    
